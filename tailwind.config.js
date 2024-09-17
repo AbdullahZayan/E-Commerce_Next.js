@@ -7,10 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+    container: {
+      center: true,
+      center: "15px"
+    },
+    colors:{
+      accent: "#FF89C",
+      blackish: "#1b1b1b",
+    },
     },
   },
   plugins: [],
